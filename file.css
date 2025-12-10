@@ -1,0 +1,17 @@
+.site-header {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;        
+  padding: 10px 20px;
+  background-color: #152237;
+}
+.form {
+  color: white;
+}
+
+.zone1 {
+  background-image: none;
+  padding: 0;
+  margin: auto;
+  border-radius: 0;
+}

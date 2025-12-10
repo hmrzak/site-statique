@@ -1,11 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
+    <link rel="stylesheet" href="file.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    
+   <header class="site-header">
+  <div><img src="/site-statique/assets/logo.png" alt="Logo"></div>
+    <div class="form"><p>Les formations</p></div>
+    <form action="/recherche" method="get">
+  <label for="site-search"></label>
+  <input itemid="nav"
+    type="search"
+    id="site-search"
+    name="nav"
+    value="Rechercher">
+</form>
+  <div class="actions">
+    <button class="button" id="button">Se connecter</button>
+    <button class="button" id="button">S'inscrire</button>
+  </div>
+</header>
+<div class="zone1" id="zone1"><img src="/site-statique/assets/ba.png" alt="Image"></div>
 </body>
 </html>
