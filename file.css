@@ -1,5 +1,9 @@
 
-
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 .site-header {
   display: flex;
@@ -7,13 +11,19 @@
   align-items: center;        
   padding: 10px 20px;
   background-color: #152237;
+  max-width: 100%;
 }
 .form {
   color: white;
 }
 .site-header,
 .zone1 {
-  max-width: 1100px;
+  max-width: 100%;
   margin: 0 auto;
   box-sizing: border-box;
+}
+.zone1 img {
+  width: 100%;
+  height: auto;
+  letter-spacing: -1.5px;
 }
