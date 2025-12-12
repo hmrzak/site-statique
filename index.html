@@ -1,33 +1,227 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <link rel="stylesheet" href="file.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="file.css"/>
+    <title>Klivio</title>
+  </head>
+  <body>
 
-   <header class="site-header">
+<!-- header-->
+    <header class="">
+      <div class="container flex justify-center between test">
+        <img src="assets/logo.png" alt="logo" class="logo"/> <!--Logo-->
+        <a href="">Les formations</a>
+        <input type="text" placeholder="Rechercher"/>
+        <div class="Buttons">
+          <a id="titre1">Connexion</a>
+          <a id="titre2">Inscription</a>
+        </div>
+      </div>
 
-    <div>
-     <img src="/assets/logo.png" alt="Logo">
+      <section class="hero flex">  
+        <div class="TextHero">
+          <h2>
+                Klivio, l’allié de votre progression
+          </h2>
+
+          <h1>
+            Les meilleures formations sur le développement personnel
+          </h1>
+
+          <a href="">En savoir plus</a>
+        </div>
+        
+      </section>
+
+
+    </header>
+  <!-- Corps de la page-->
+    <main>
+
+      <section class="populaire">
+
+        <div>
+        <h2>Les formations populaires</h2>
+        </div>
+
+      </section> 
+    <!-- Rubriques Formations-->
+<div class="cards">
+
+  <article class="card">
+
+    <div class="formations image"><img src="/assets/photo.png"></div>
+    <div class="prix">
+      <div class="card-price">15,99 € <span class="card-old-price">60€</span></div>
+      </div>
+    <div class="card-body">
+      <h3 class="card-title">Parler en public</h3>
+      <p class="card-author">Sonia Lafèvre |Coach prise de parole</p>
+      <p class="card-rating">★★★★★</p>
+      <p class="card-text">Gagnez en aisance et captez votre auditoire</p>
     </div>
-    <div class="form">
-        <p>Les formations</p>
+
+  </article>  
+
+<article class="card"> 
+
+  <div class="formations image"><img src="/assets/photo.png"></div>
+  <div class="prix">
+      <div class="card-price">15,99 € <span class="card-old-price">60€</span></div>
+      </div>
+    <div class="card-body">
+      <h3 class="card-title">Gérer le stress</h3>
+      <p class="card-author">Lucie Garnier| Formatrice</p>
+      <p class="card-rating">★★★★☆</p>
+      <p class="card-text">Apprenez à rester serein face aux défis</p>
     </div>
 
-    <form action="/recherche" method="get">
-  <input itemid="nav" type="search" id="site-search" name="nav" value="Rechercher">
+</article>
 
-</form>
+<article class="card">  
 
-  <div class="actions">
-    <button class="button" id="button">Connexion</button>
-    <button class="button" id="button">Inscription</button>
+  <div class="formations image"><img src="/assets/photo.png"></div>
+  <div class="prix">
+      <div class="card-price">15,99 € <span class="card-old-price">60€</span></div>
   </div>
-</header>
-<div class="image1"id="img1" ><img name="image" src="assets/rectable bleu.png" alt="image"></div>
-<div class="image2"id="img2"><img name="image" src="assets/fond.png" alt="image"></div>
-</body>
+    <div class="card-body">
+      <h3 class="card-title">Travailler en équipe</h3>
+      <p class="card-author">David Moreau | Expert</p>
+      <p class="card-rating">★★★★★</p>
+      <p class="card-text">Collaborez efficacement même à distance</p>
+    </div>
+
+</article>
+
+<article class="card"> 
+
+  <div class="formations image"><img src="/assets/photo.png"></div>
+
+    <div class="card-body">
+      <div class="prix">
+      <div class="card-price">15,99 € <span class="card-old-price">60€</span></div>
+      </div>
+      <h3 class="card-title">Gérer son temps</h3>
+      <p class="card-author">Claire Dumas | Coach organisation</p>
+      <p class="card-rating">★★★★☆</p>
+      <p class="card-text">Optimisez vos journées et gagnez en efficacité</p>
+    </div>
+
+</article>
+
+</div>
+  
+
+<div class="cards2">
+  <section class="recente">
+        <h2>Les formations récentes</h2>
+      </section> 
+
+
+  <article class="card2">
+
+    <div class="formations image"><img src="/assets/photo.png"></div>
+    <div class="prix2">
+      <div class="card2-price">15,99 € <span class="card-old-price">60€</span></div>
+    </div>
+    <div class="card2-body">
+      <h3 class="card2-title">Parler en public</h3>
+      <p class="card2-author">Sonia Lafèvre |Coach prise de parole</p>
+      <p class="card2-rating">★★★★★</p>
+      <p class="card-text">Gagnez en aisance et captez votre auditoire</p>
+    </div>
+
+  </article>  
+
+<article class="card2"> 
+
+  <div class="formations image"><img src="/assets/photo.png"></div>
+  <div class="prix2">
+      <div class="card2-price">15,99 € <span class="card-old-price">60€</span></div>
+    </div>
+    <div class="card2-body">
+      <h3 class="card2-title">Gérer le stress</h3>
+      <p class="card2-author">Lucie Garnier| Formatrice</p>
+      <p class="card2-rating">★★★★☆</p>
+      <p class="card2-text">Apprenez à rester serein face aux défis</p>
+    </div>
+
+</article>
+
+<article class="card2">  
+
+  <div class="formations image"><img src="/assets/photo.png"></div>
+  <div class="prix2">
+      <div class="card2-price">15,99 € <span class="card-old-price">60€</span></div>
+    </div>
+    <div class="card2-body">
+      <h3 class="card2-title">Travailler en équipe</h3>
+      <p class="card2-author">David Moreau | Expert</p>
+      <p class="card2-rating">★★★★★</p>
+      <p class="card2-text">Collaborez efficacement même à distance</p>
+    </div>
+
+</article>
+
+<article class="card2"> 
+
+  <div class="formations image"><img src="/assets/photo.png"></div>
+
+    <div class="card2-body">
+      <div class="prix2">
+      <div class="card2-price">15,99 € <span class="card-old-price">60€</span></div> </div>
+      <h3 class="card2-title">Gérer son temps</h3>
+      <p class="card2-author">Claire Dumas | Coach organisation</p>
+      <p class="card2-rating">★★★★☆</p>
+      <p class="card2-text">Optimisez vos journées et gagnez en efficacité</p>
+    </div>
+
+</article>
+
+</div>
+<div class="Avis client">
+  <section class="customer-reviews">
+
+        <div>
+        <h2>Avis des clients</h2>
+        </div>
+<div class="client-picture"> 
+  
+  <article class="client1">
+
+    <div class="client-picture"><img src="/assets/client1.png"></div>
+    <div class="card-body">
+       <p class="client-rating">★★★★★</p>
+      <h3 class="client-name">Juliette</h3>
+      <p class="avis">J’ai trouvé le parcours très bien structuré : vidéos courtes, quizzes pertinents et projets pratiques qui m’ont permis d’appliquer immédiatement les notions. L’interface est claire et la progression est motivante — parfait pour se former en autonomie.</p>
+    </div>
+
+  </article>  
+  <article class="client2">
+
+    <div class="client-picture"><img src="/assets/client2.png"></div>
+    <div class="card-body">z
+       <p class="client-rating">★★★★★</p>
+      <h3 class="client-name">Camille</h3>
+      <p class="avis">Bon équilibre entre théorie et pratique. Les chapitres sont détaillés, et le support et les corrections automatiques ont vraiment aidé. Idéal pour démarrer et progresser rapidement.</p>
+    </div>
+
+  </article>  
+    </div>
+      </section>
+      
+
+</div>
+
+    </main>
+      <!--Bas de Page-->
+    <footer>
+      <div class="footer-content">
+        <p>© Klivio -  2025</p>
+      </div>
+
+    </footer>
+  </body>
 </html>

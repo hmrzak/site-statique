@@ -1,29 +1,212 @@
-
-*{
-  margin: 0;
+* {
+  box-sizing: border-box;
   padding: 0;
-  box-sizing: border-box;
+  margin: 0;
+  font-family: "montserrat", sans-serif;
 }
 
-.site-header {
-  display: flex;
-  justify-content: space-between; 
-  align-items: center;        
-  padding: 10px 20px;
+a {
+  text-decoration: none;
+  list-style: none;
+}
+
+header {
   background-color: #152237;
-  max-width: 100%;
+  position: relative;
+
+  .logo{
+    position: absolute;
+    top:25px;
+    left:98px;
+  width:84px;
+  height: 31px;
 }
-.form {
-  color: white;
+
+  a{
+  width: 110px;
+  height: 18px;
+
+  opacity: 1;
+  top: 31px;
+  left: 350px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 100%;
+  letter-spacing: -1.5%;
+  text-align: center;
+  vertical-align: middle;}
+
+  input{
+    background-color: #152237;
+    border: 2px solid white;
+    border-radius: 6px;
+    width: 200px;
+    height: 40px;
+  }
+
+  .Buttons{
+    #titre1, #titre2{
+      border: 2px solid white;
+      border-radius: 6px;
+      }
+    #titre1{
+      color: black;
+      background-color: white;
+    }
+    #titre2{
+      color:black;
+     background: linear-gradient(         /* Degradé de couleur */
+      94deg,
+      rgba(68, 221, 138, 0.8) 3.11%,
+      rgba(21, 183, 226, 0.8) 98.45%
+    ),
+    url("assets/fond.png");
+  }
 }
-.site-header,
-.zone1 {
-  max-width: 100%;
-  margin: 0 auto;
-  box-sizing: border-box;
 }
-.zone1 img {
+.test{
+  align-items: center;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.between {
+  justify-content: space-between;
+}
+
+.container {
+  max-width: 1000px;
   width: 100%;
-  height: auto;
-  letter-spacing: -1.5px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 16px;
+}
+
+.hero {
+  background: linear-gradient(         /* Degradé de couleur */
+      94deg,
+      rgba(68, 221, 138, 0.8) 3.11%,
+      rgba(21, 183, 226, 0.8) 98.45%
+    ),
+    url("assets/fond.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  min-height: 50vh;
+  align-items: center;
+  justify-content: center;
+  h1{
+    font-size: 20px;
+    font-weight: 900;
+    margin-top: 20px;
+  }
+
+  h2{
+    font-size: 40px;
+    font-weight: 900;
+  }
+
+}
+
+.TextHero{
+ text-align: center;
+ color: #152237;
+ 
+}
+
+header {
+  a{
+    color: white;
+    margin-left: 16px;
+    
+  }
+}
+
+main {
+  align-items: center;
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background:white;     
+  color:#152237;          
+}
+
+.cards {
+  display:flex;
+  flex-wrap:wrap;          /* les cartes passent à la ligne si l’écran est petit */
+  gap:24px;                /* espace entre les cartes */
+  padding:40px;
+  justify-content:center;  /* centrer le bloc de cartes */
+}
+
+.card {
+  background:white;
+  border-radius:8px;
+  overflow:hidden;
+  width:260px;            
+  display:flex;
+  flex-direction:column;
+  .card-rating {
+  color: #f5a623;         /* couleur des étoiles */
+  font-size: 14px;
+}}
+  .TextHero{
+  a{
+  border: 2px solid white;
+  padding: 10px 50px;
+  text-decoration: none;
+  width: 130px;
+  height: 40px;
+  border-radius: 6px;
+  }
+  }
+  .cards2 {
+  display:flex;
+  flex-wrap:wrap;          /* les cartes passent à la ligne si l’écran est petit */
+  gap:24px;                /* espace entre les cartes */
+  padding:40px;
+  justify-content:center;  /* centrer le bloc de cartes */
+  background: #152237;
+}
+  .card2 {
+  background:white;
+  border-radius:8px;
+  overflow:hidden;
+  width:260px;            
+  display:flex;
+  flex-direction:column;
+  .card2-rating {
+  color: #f5a623;         /* couleur des étoiles */
+  font-size: 14px;
+}}
+.card{
+  .prix{
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border: solid 1px #ddd;
+    background-color: red;
+    border-radius: 6px;
+    max-width: fit-content;
+    border-style: none;
+    padding: 5px 10px;
+  }
+}
+.card2{
+  .prix2{
+        margin-bottom: 10px;
+    margin-left: 10px;
+    border: solid 1px #ddd;
+    background-color: blue;
+    border-radius: 6px;
+    max-width: fit-content;
+    border-style: none;
+    padding: 5px 10px;
+  }
 }
