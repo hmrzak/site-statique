@@ -103,6 +103,7 @@ header {
   min-height: 50vh;
   align-items: center;
   justify-content: center;
+
   h1{
     font-size: 20px;
     font-weight: 900;
@@ -131,6 +132,13 @@ header {
 }
 
 main {
+    .populaire{
+    color:#152237;
+
+  }
+.recente{
+  color: white;
+  }
   align-items: center;
   margin: 0;
   font-family: system-ui, sans-serif;
@@ -196,6 +204,10 @@ main {
     max-width: fit-content;
     border-style: none;
     padding: 5px 10px;
+    
+    .card-price{
+      color: white;
+    }
   }
 }
 .card2{
@@ -208,5 +220,14 @@ main {
     max-width: fit-content;
     border-style: none;
     padding: 5px 10px;
+
+    .card2-price{
+      color: white;
+    }
+  }
+}
+.avantages{
+  .benefits{
+  display: flex;
   }
 }
