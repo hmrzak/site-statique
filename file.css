@@ -13,6 +13,7 @@ a {
 header {
   background-color: #152237;
   position: relative;
+  align-items: center;
 
   .logo{
     position: absolute;
@@ -23,6 +24,7 @@ header {
 }
 
   a{
+
   width: 110px;
   height: 18px;
 
@@ -46,15 +48,15 @@ header {
   }
 
   .Buttons{
-    #titre1, #titre2{
+    #title1, #title2{
       border: 2px solid white;
       border-radius: 6px;
       }
-    #titre1{
+    #title1{
       color: black;
       background-color: white;
     }
-    #titre2{
+    #title2{
       color:black;
      background: linear-gradient(         /* Degradé de couleur */
       94deg,
@@ -90,7 +92,7 @@ header {
   padding: 16px;
 }
 
-.hero {
+.background1 {
   background: linear-gradient(         /* Degradé de couleur */
       94deg,
       rgba(68, 221, 138, 0.8) 3.11%,
@@ -120,7 +122,14 @@ header {
 .TextHero{
  text-align: center;
  color: #152237;
- 
+ .ensavoir{
+  border: white solid;
+  border-radius: 6px;
+  color: black;
+  background-color: white;
+  width: 130;
+  height: 40;
+ }
 }
 
 header {
@@ -132,21 +141,21 @@ header {
 }
 
 main {
-    .populaire{
-    color:#152237;
-
-  }
-.recente{
-  color: white;
-  }
   align-items: center;
   margin: 0;
   font-family: system-ui, sans-serif;
-  background:white;     
-  color:#152237;          
-}
+  background:white; 
+    .populaire{
+            color:#152237;
+              }
 
-.cards {
+    .recente{
+           color: white;
+            }      
+      }
+
+.cards,
+.cards2 {
   display:flex;
   flex-wrap:wrap;          /* les cartes passent à la ligne si l’écran est petit */
   gap:24px;                /* espace entre les cartes */
@@ -184,13 +193,13 @@ main {
   background: #152237;
 }
   .card2 {
-  background:white;
+ background:white;
   border-radius:8px;
   overflow:hidden;
   width:260px;            
   display:flex;
   flex-direction:column;
-  .card2-rating {
+  .card-rating {
   color: #f5a623;         /* couleur des étoiles */
   font-size: 14px;
 }}
@@ -228,6 +237,7 @@ main {
 }
 .avantages{
   .benefits{
+    align-items :center;
   display: flex;
   }
 }
