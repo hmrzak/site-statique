@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="fr">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="stylesheet" href="style.css"/>
-    <title>Klivio</title>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <link rel="stylesheet" href="style.css"/>
+     <title>Klivio</title>
   </head>
-  <body>
+<body>
 
-<header>
+  <header>
       <div class="container flex justify-center between test">
-              <img src="assets/logo.png" alt="logo" class="logo"/> <!-- Logo -->
+              <img src="assets/logo.png" alt="logo" class="logo"/> 
               <a href="">Les formations</a>
-              <input type="text" placeholder="Rechercher"/>
+              <div class="navbar">
+              <input type="text" placeholder="Rechercher une formation 🔍" class="search-bar"/>
+              </div>
         <div class="Buttons">
               <a id="title1">Connexion</a>
               <a id="title2">Inscription</a>
@@ -25,13 +27,13 @@
           <h1>Les meilleures formations sur le développement personnel</h1>
           <p>‎</p>
           <p>‎</p>
-          <br> <!-- 3 même commande // saut de ligne-->
+          <br> <!-- carac invi / +1 ligne-->
           <a class="info-link">En savoir plus</a>
         </div>
       </section>
-</header>
+  </header>
    
-<main>
+  <main>
       <section class="populaire">
         <div>
             <h2>Les formations populaires</h2>
@@ -43,7 +45,7 @@
       <article class="card">
           <div class="formations image"><img src="assets/photo.png"></div>
           <div class="prix">
-             <div class="card-price">15,99 € <span class="card-old-price">60€</span></div>
+             <div class="card-price">15,99€ <span class="card-old-price">60€</span></div>
           </div>
 
     <div class="card-body">
@@ -57,7 +59,7 @@
       <article class="card"> 
          <div class="formations image"><img src="assets/photo.png"></div>
          <div class="prix">
-             <div class="card-price">15,99 € <span class="card-old-price">60€</span></div>
+             <div class="card-price">15,99€ <span class="card-old-price">60€</span></div>
          </div>
 
          <div class="card-body">
@@ -72,7 +74,7 @@
 
   <div class="formations image"><img src="assets/photo.png"></div>
   <div class="prix">
-      <div class="card-price">15,99 € <span class="card-old-price">60€</span></div>
+      <div class="card-price">15,99€ <span class="card-old-price">60€</span></div>
   </div>
     <div class="card-body">
       <h3 class="card-title">Travailler en équipe</h3>
@@ -89,7 +91,7 @@
 
     <div class="card-body">
       <div class="prix">
-      <div class="card-price">15,99 €<span class="card-old-price">60€</span></div>
+      <div class="card-price">15,99€ <span class="card-old-price">60€</span></div>
       </div>
       <h3 class="card-title">Gérer son temps</h3>
       <p class="card-author">Claire Dumas | Coach organisation</p>
@@ -98,21 +100,18 @@
     </div>
 
 </article>
-
 </div>
-  
 
-<div class="cards2">
   <section class="recente">
         <h2>Les formations récentes</h2>
       </section> 
 
-
+<div class="cards2">
   <article class="card2">
 
     <div class="formations image"><img src="assets/photo.png"></div>
     <div class="prix2">
-      <div class="card2-price">15,99 € <span class="card-old-price">60€</span></div>
+      <div class="card2-price">15,99€ <span class="card-old-price">60€</span></div>
     </div>
     <div class="card2-body">
       <h3 class="card2-title">Parler en public</h3>
@@ -127,7 +126,7 @@
 
   <div class="formations image"><img src="assets/photo.png"></div>
   <div class="prix2">
-      <div class="card2-price">15,99 € <span class="card-old-price">60€</span></div>
+      <div class="card2-price">15,99€ <span class="card-old-price">60€</span></div>
     </div>
     <div class="card2-body">
       <h3 class="card2-title">Gérer le stress</h3>
@@ -142,7 +141,7 @@
 
   <div class="formations image"><img src="assets/photo.png"></div>
   <div class="prix2">
-      <div class="card2-price">15,99 € <span class="card-old-price">60€</span></div>
+      <div class="card2-price">15,99€ <span class="card-old-price">60€</span></div>
     </div>
     <div class="card2-body">
       <h3 class="card2-title">Travailler en équipe</h3>
@@ -159,7 +158,7 @@
 
     <div class="card2-body">
       <div class="prix2">
-      <div class="card2-price">15,99 € <span class="card-old-price">60€</span></div> </div>
+      <div class="card2-price">15,99€ <span class="card-old-price">60€</span></div> </div>
       <h3 class="card2-title">Gérer son temps</h3>
       <p class="card2-author">Claire Dumas | Coach organisation</p>
       <p class="card2-rating">★★★★☆</p>
@@ -169,28 +168,26 @@
 </article>
 
 </div>
-<div class="Avis client">
+<div class="Avis-client">
   <section class="customer-reviews">
-
-        <div>
-        <h2>Avis des clients</h2>
-        </div>
-<div class="client-picture"> 
-  
+        <div class="title-review">
+        <strong><h1>Avis Clients</h1></strong>
+        </div>  
+        <div class="reviews">
   <article class="client1">
 
-    <div class="client-picture"><img src="assets/client1.png"></div>
+    <div class="client-picture"><img src="assets/client2.png"></div>
     <div class="card-body">
        <p class="client-rating">★★★★★</p>
       <h3 class="client-name">Juliette</h3>
-      <p class="avis">J’ai trouvé le parcours très bien structuré : vidéos courtes, quizzes pertinents et projets pratiques qui m’ont permis d’appliquer immédiatement les notions. L’interface est claire et la progression est motivante — parfait pour se former en autonomie.</p>
+      <p class="avis">J’ai trouvé le parcours très bien structuré : vidéos courtes, quizzes pertinents et projets <br>pratiques qui m’ont permis d’appliquer immédiatement les notions. L’interface est claire et la progression est motivante — parfait pour se former en autonomie.</p>
     </div>
 
   </article>  
   <article class="client2">
 
-    <div class="client-picture"><img src="assets/client2.png"></div>
-    <div class="card-body">z
+    <div class="client-picture"><img src="assets/client1.png"></div>
+    <div class="card-body">
        <p class="client-rating">★★★★★</p>
       <h3 class="client-name">Camille</h3>
       <p class="avis">Bon équilibre entre théorie et pratique. Les chapitres sont détaillés, et le support et les corrections automatiques ont vraiment aidé. Idéal pour démarrer et progresser rapidement.</p>
@@ -200,46 +197,80 @@
     </div>
       </section>
       
-
+</div>
 </div>
 
 <div class="avantages">
   <section class="benefits">
-
-        <div>
+    <div class="avantages-content">
+      <div class="avantages-title">
         <h2>LES AVANTAGES KLIVIO</h2>
-        </div>
-
-      <ul>
-       <span class="logo"><img src="/assets/logo1.png"></span> <li>Suivi de sa progression</li>
-        <span class="logo"><img src="/assets/logo2.png"></span><li>Exercice et QCM pour la mise en pratique</li>
-        <span class="logo"><img src="/assets/logo3.png"></span><li>Possibilité de télécharger/imprimer les formations</li>
-        <span class="logo"><img src="/assets/logo4.png"></span><li>Contenu qualitatif et vérifié</li>
-        <span><img src="/assets/logo5.png"></span><li>Suivi en autonomie, 24h/24, 7j/7</li>
-        <span><img src="/assets/logo6.png"></span><li>Espaces d'échanges dédiés pour poser ses questions sur les formations</li>
-      </ul>
-      <div class="imagekli">
-        <img src="assets/pexels-jopwell-2422286 1.png">
       </div>
-      </section>
+      <div class="avantages-liste">
+        <ul class="avantages-list">
+          <li><img class="logo" src="assets/logo1.png" alt=""> Suivi de sa progression</li>
+          <li><img class="logo" src="assets/logo2.png" alt=""> Exercices et QCM pour la mise en pratique</li>
+          <li><img class="logo" src="assets/logo3.png" alt=""> Possibilité de télécharger/imprimer les formations</li>
+          <li><img class="logo" src="assets/logo4.png" alt=""> Contenu qualitatif et vérifié</li>
+          <li><img class="logo" src="assets/logo5.png" alt=""> Suivi en autonomie, 24h/24, 7j/7</li>
+          <li><img class="logo" src="assets/logo6.png" alt=""> Espaces d'échanges dédiés pour poser ses questions sur les formations</li>
+        </ul>
+      </div>
+    </div>
+    <div class="avantages-image imagekli">
+      <img src="assets/pexels-jopwell-2422286 1.png" alt="">
+    </div>
+  </section>
 </div>
 
-<div>
+
   <section class="create">
     <div class="imgcreate">
       <img src="assets/pexels-julia-m-cameron-4144923 (1) 1.png">
     </div> 
+    <div class="create-title">
+      <h2> Créez vos formations avec klivio</h2>
+      </div>
+      <div class="create-liste">
+        <ul>
+        <li><img src="/assets/1.png">Comission unique, au pourcentage sur les ventes</li>
+          <li><img src="/assets/2.png">Mise en avant sur la plateforme</li>
+          <li><img src="/assets/3.png">Contrôle total sur les cours: contenu,prix</li>
+          <li><img src="/assets/4.png">Fonctionnalités avancées: espace commentaires Possibilité de créer des QCM, exercices,vidéos,téléchargement en PDF,suivi des statistiques des ventes, gestion de codes promos, gestion de la facturation, etc</li>
+          <li><img src="/assets/5.png">Le professeur reste 100% propriétaire de sa formation et conserve tous ses droits d'auteur</li>
+        </ul>
+      </div>
+    </div>
 
   </section>
 </div>
+<div class="propos">
+<section class="about-us">
+      <div>
+          <h2>À propos de Klivio</h2>
+          <p>Klivio est une plateforme dédiée au développement personnel, offrant une variété de formations conçues pour aider les individus à atteindre leur plein potentiel. Notre mission est de fournir des ressources éducatives de qualité, accessibles à tous, pour favoriser la croissance personnelle et professionnelle.</p>
+      </div>
+    </section>
+  <section class="about-img">
+      <div class="about-image">
+          <img src="assets/pexels-fauxels-3184435 1.png" alt="À propos de Klivio">
+      </div>
+  </section>
+</div>
+<div class="contact">
+  <section class="contact-us">
+      <div>
+          <h2>Nous contacter</h2>
+          <input type="text" placeholder=" nom" class="contact-input"/>
+          <input type="email" placeholder=" email" class="contact-input"/>
+          <textarea placeholder=" message" class="contact-textarea"></textarea>
+          <button class="contact-button">Envoyer</button>
+</div>
 
 </main>
-      <!--Bas de Page-->
-    <footer>
-      <div class="footer-content">
-        <p>© Klivio -  2025</p>
-      </div>
-
-    </footer>
-  </body>
+<footer>
+ <div>
+  <img src="assets/logo.png" alt="logo" class="logo-footer"/>
+ </div>
+</body>
 </html>

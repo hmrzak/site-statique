@@ -146,12 +146,11 @@ main {
   font-family: system-ui, sans-serif;
   background:white; 
     .populaire{
+      h2{
+        padding:40px;
+      }
             color:#152237;
-              }
-
-    .recente{
-           color: white;
-            }      
+              }   
       }
 
 .cards,
@@ -234,10 +233,163 @@ main {
       color: white;
     }
   }
-}
-.avantages{
-  .benefits{
-    align-items :center;
-  display: flex;
+} /* end card2 */
+
+ .recente{
+           color:white;
+           background-color: #152237;
+           h2{
+            padding:40px
+           }
+            }   
+          
+.Avis-client{
+  background-color: white;
+  .customer-reviews{
+
+    .title-review{
+    justify-content: center;
+    text-align: center;
+    padding-top: 40px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 1000px;
+    font-size: 25px;
+    color: #152237;
+      }
+      .reviews{
+        .client-rating{
+          color: #f5a623;       
+          font-size: 14px;
+        }
+        display: flex;
+        gap: 40px;
+        justify-content: center;
+        padding: 40px;
+      }
   }
+  }
+
+
+.client-picture {
+  width: 72px;
+  border-radius: 50%;
+}
+
+.client-picture img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.avantages{
+  padding: 40px 16px;
+}
+.avantages .benefits{
+  margin: 40px;
+  display: grid;
+  grid-template-columns: 1fr 420px; /* contenu à gauche, image fixe à droite */
+  gap: 40px;
+  align-items: center;
+}
+.avantages .avantages-title h2{
+  color: #152237;
+  font-size: 28px;
+  font-weight: 900;
+  margin: 0 0 16px 0;
+}
+.avantages-list{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  color: #394a53;
+}
+.avantages-list li{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 14px;
+  font-size: 15px;
+}
+.avantages-list li .logo{
+  width: 22px;
+  height: 22px;
+  flex: 0 0 22px;
+}
+
+.imagekli img, .avantages-image img{
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  display: block;
+}
+
+
+.create{  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #44DD8A;
+  color: white;
+  padding: 40px;
+  .imgcreate{
+    max-width: 400px;
+    margin-right: 40px; 
+    img{
+      width: 100%;
+      height: auto;
+      border-radius: 6px;
+      display: block;
+    }
+  }
+  .create-title{
+    margin-bottom: 30px;
+    color: #152237;
+    h2{
+      font-size: 28px;
+      font-weight: 900;
+      text-transform: uppercase;
+    }
+  }
+  .create-liste{
+    ul{
+      color: black;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    li{
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 14px;
+      font-size: 15px;
+    }
+    li img{
+      width: 22px;
+      height: 22px;
+      flex: 0 0 22px;
+    }
+  }
+}
+.propos{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  .about-us{
+    background-color: white;
+    text-align: left;
+    max-width: fit-content;
+
+  }
+  .about-image{
+    background-color: red;
+
+  }
+}
+
+footer{
+  background-color: #152237;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
 }
